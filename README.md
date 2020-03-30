@@ -11,7 +11,7 @@
   
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Andre2553/Omnistack-Project">
   <a href="https://github.com/Andre2553/Omnistack-Project/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EliasGcf/be-the-hero">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Andre2553/Omnistack-Project">
   </a>
   
 
