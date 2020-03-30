@@ -10,20 +10,13 @@
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Andre2553/Omnistack-Project">
   
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Andre2553/Omnistack-Project">
-  <a href="https://github.com/Andre2553/Omnistack-Project/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Andre2553/Omnistack-Project">
-  </a>
-  
-
-  
-  <img alt="GitHub" src="https://img.shields.io/github/license/Andre2553/Omnistack-Project">
 </p>
 
 <p align="center">
   <a href="#%EF%B8%8F-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-semana-omnistack-110">Semana OmniStack 11.0</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Instalation">Instalation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Installation">Installation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-licença">Licença</a>
 </p>
 
@@ -64,7 +57,7 @@ This application was developed with the following technologies:
 - [Prettier](https://prettier.io/)
 - [EditorConfig](https://editorconfig.org/)
 
-## ![Alt LogoRocketseat](.github/logo-rocketseat.svg) Semana OmniStack 11.0
+## Semana OmniStack 11.0
 
 The [Semana OmniStack](https://rocketseat.com.br/week/inscricao/11.0)is a 100% online and free event, where [Rocketseat] (https://github.com/rocketseat) together with its CTO [Diego Fernandes] (https://github.com/diego3g) and the whole community, develop a complete application, from the database, back-end, to the web and mobile front-end, all using the JavaScript stack, that is, Node.js on the back-end, ReactJS for web and React Native for mobile .
 
@@ -107,7 +100,7 @@ _ps: Before executing, remember to start the backend of this project_
 - If you are going to use your smartphone, with the expo app I scanned the QRCODE;
 
 
-## 📝 Licença
+## 📝 License
 
 
 This project is under the MIT license. See the [LICENSE] file (https://github.com/Andre2553/Omnistack-Project/blob/master/LICENSE) for more details.
