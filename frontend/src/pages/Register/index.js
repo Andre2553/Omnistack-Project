@@ -3,8 +3,11 @@ import {Link} from 'react-router-dom' //reload page without reload the whole doc
 import './styles.css'
 import logoImg from '../../assets/logo.svg'
 import {FiArrowLeft} from 'react-icons/fi'
-
+//import api from '../../services'
 export default function Register(){
+    /*function handleRegister(){
+        
+    }*/
     return(
         <div className="register-container">
             <div className="content">
