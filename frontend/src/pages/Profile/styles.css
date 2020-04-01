@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
 .profile-container{
     width: 100%;
     max-width: 1180px;
@@ -10,8 +12,9 @@
     align-items: center;
 }
 .profile-container header span{
-    font-size: 20px;
+    
     margin-left: 24px;
+    font: 24px Roboto,sans-serif
 }
 .profile-container header img{
     height: 64px;
