@@ -63,7 +63,7 @@ The [Semana OmniStack](https://rocketseat.com.br/week/inscricao/11.0)is a 100% o
 
 ## 💻 Installation
 
-Faça um clone desse repositório.
+CLone this repository
 
 ### Prerequisites
 
