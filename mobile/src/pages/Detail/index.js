@@ -1,7 +1,7 @@
 import React from  'react';
 import {View,Image,Text,TouchableOpacity,Linking} from 'react-native';
 import { Feather} from '@expo/vector-icons';
-import {useNavigation} from '@react-navigation/native'
+import {useNavigation,useRoute} from '@react-navigation/native'
 import * as MailComposer from 'expo-mail-composer';
 
 import logImg from '../../assets/logo.png'
@@ -10,19 +10,22 @@ import styles from './styles'
 
 export default function Detail(){
     const navigation = useNavigation();
-    const message = "Hello APAD, I'm contacting you because I'd love to help in the case \"Running out of food\" with the price $120.00 "
+    const route = useRoute();
+    
+    const incident = route.params.incident;
+    const message = `Hello ${incident.name}, I'm contacting you because I'd love to help in the case \"${incident.title}\" with the price ${Intl.NumberFormat('eng-AU', {style: 'currency', currency:'AUD'}).format(incident.value)}`
     function navigateBack(){
         navigation.goBack();
     }
     function sendEmail(){
         MailComposer.composeAsync({
-            subject: "The Hero's case: Running out of food",
-            recipients: ['andrezaga9@hotmail.com'],
+            subject: `The Hero's case: ${incident.title}`,
+            recipients: [incident.email],
             body:message,
         })
     }
     function SendWhatsapp(){
-        Linking.openURL(`whatsapp://send?phone=61406214503&text=${message}`);
+        Linking.openURL(`whatsapp://send?phone=${incident.whatsapp}&text=${message}`);
     }
     return(
         <View style={styles.container}>
@@ -35,13 +38,18 @@ export default function Detail(){
             </View>
             <View style={styles.incident}>
                 <Text style={[styles.incidentProperty,{marginTop:0}]}>NGO:</Text>
-                <Text style={styles.incidentValue}>APAD</Text>
+                <Text style={styles.incidentValue}>{incident.name} from {incident.city} - {incident.uf}</Text>
                     
                 <Text style={styles.incidentProperty}>Case:</Text>
-                <Text style={styles.incidentValue}>Running out of food</Text>
+                <Text style={styles.incidentValue}>{incident.title}</Text>
 
                 <Text style={styles.incidentProperty}>Price:</Text>
-                <Text style={styles.incidentValue}>$130.00</Text>
+                <Text style={styles.incidentValue}>{
+                    Intl.NumberFormat('eng-AU', {
+                        style: 'currency', 
+                        currency:'AUD'
+                        }).format(incident.value)}
+                </Text>
 
             </View>
             <View style={styles.contactBox}>
