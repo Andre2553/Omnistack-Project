@@ -17,7 +17,7 @@
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-semana-omnistack-110">Semana OmniStack 11.0</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Installation">Installation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-licença">Licença</a>
+  <a href="#-licença">License</a>
 </p>
 
 
@@ -59,7 +59,7 @@ This application was developed with the following technologies:
 
 ## Semana OmniStack 11.0
 
-The [Semana OmniStack](https://rocketseat.com.br/week/inscricao/11.0)is a 100% online and free event, where [Rocketseat] (https://github.com/rocketseat) together with its CTO [Diego Fernandes] (https://github.com/diego3g) and the whole community, develop a complete application, from the database, back-end, to the web and mobile front-end, all using the JavaScript stack, that is, Node.js on the back-end, ReactJS for web and React Native for mobile .
+The [Semana OmniStack](https://rocketseat.com.br/week/inscricao/11.0) is a 100% online and free event, where [Rocketseat] (https://github.com/rocketseat) together with its CTO [Diego Fernandes] (https://github.com/diego3g) and the whole community, develop a complete application, from the database, back-end, to the web and mobile front-end, all using the JavaScript stack, that is, Node.js on the back-end, ReactJS for web and React Native for mobile .
 
 ## 💻 Installation
 
