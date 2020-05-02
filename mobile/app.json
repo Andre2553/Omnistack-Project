@@ -23,6 +23,9 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "sdkVersion": "37.0.0",
+    "description": "Be The Hero - Connect your NGO with people who want to help you.",
+    "githubUrl": "https://github.com/Andre2553/Omnistack-Project"
   }
 }
